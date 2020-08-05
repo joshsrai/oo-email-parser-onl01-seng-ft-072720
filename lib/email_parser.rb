@@ -15,7 +15,6 @@ end
     emails.split.collect do |email| email.split(',')
   end
   .flatten.uniq 
-#    @emails.split( /, | /).uniq
   end
   
 end
